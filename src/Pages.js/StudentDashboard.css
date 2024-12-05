@@ -1,0 +1,12 @@
+.charts-container {
+    display: flex; /* Use flexbox for side-by-side layout */
+    justify-content: space-between; /* Space the charts evenly */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  }
+  
+  .chart {
+    flex: 1 1 45%; /* Allow charts to grow and shrink */
+    max-width: 400px; /* Set a maximum width */
+    margin: 10px; /* Margin around each chart */
+  }
+  
